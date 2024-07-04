@@ -1,0 +1,16 @@
+/* global.css */
+:root {
+    --base-font-size: 16px; /* Initial base font size */
+  }
+  
+  body {
+    font-size: var(--base-font-size); /* Apply the base font size to the body */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* You can set a default font family */
+  }
+  
+  * {
+    font-size: inherit; /* Ensure all elements inherit the font size from their parent */
+  }
+  

@@ -1,0 +1,40 @@
+/* .slick-prev, .slick-next {
+  background: transparent;
+  border: none;
+  color: #000; /* Set the arrow color */
+  /* font-size: 16px; /* Adjust the size of the arrows */
+  /* z-index: 1;  */
+  /* Ensure buttons are above the images */
+/* } */ */ */
+
+.slick-prev:hover, .slick-next:hover {
+  color: #555; /* Change color on hover */
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'Font Awesome 5 Free'; /* Ensure Font Awesome icons are used */
+  font-weight: 900;
+}
+
+.slick-dots {
+  bottom: -30px; /* Adjust dots position */
+}
+
+.slick-dots li button:before {
+  color: #000; /* Color for dots */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #555; /* Color for the active dot */
+}
+
+.slick-slide {
+  padding: 0 10px; /* Add horizontal space between slides */
+}
+
+/* Hide the buttons on xs screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .slick-prev, .slick-next {
+    display: none;
+  }
+}
